@@ -65,3 +65,7 @@ color:#7da323 !important;
   #toTable{
     font-size: 14px;
   }
+
+  .btn{
+    padding:10px 0 16px 0;
+  }
