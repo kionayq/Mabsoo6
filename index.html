@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>مبسووط؟</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If"
+    crossorigin="anonymous">
+
+
+    <link href="animation.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div class="container">
+
+
+<div class="login">
+   <div class="d-flex justify-content-center align-items-center mt-5">
+       <div class="col-5">
+           <img class="w-100 " src="logo.png">
+       </div>
+       <div class="col-5">
+           <img class="w-100" src="elm.jpg">
+       </div>
+     
+    </div>
+<div class="row mt-5">
+    <h4 class="m-auto text-muted " >   أدخل الكود الخاص بـ</h4>
+</div>
+
+
+    <div class="row mt-2 mb-5">
+     
+                <!-- <input class="requierd form-control-lg w-100 form-control " disabled value="" > -->
+<h2 class=" font-weight-bold text-primary m-auto">مناسبة الحج</h2>
+ 
+           
+    </div>
+
+
+    <div class="row my-2">
+        <div class="col-sm-12   text-ceter">
+            <input class="requierd form-control-lg w-100 form-control" name="codeInput" Id="codeInput" autoComplete="off" maxlength="4" >
+            <!-- <span class="error text-danger" title="it's took already!">تم استلامها من قبل</span> -->
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-sm-12 text-ceter">
+            <button id="validate" type="button" class="btn btn-primary w-100">تحقق</button>
+           
+
+        </div>
+        
+    </div>
+    <div class="text-right mt-2">
+            <span id="toTable" class="text-muted">تبقى لك <span class="font-weight-bold">55</span> علماوي لم يتم تسمليه</span>
+    </div>
+   
+</div> 
+
+
+
+
+<div class="Jud3i d-none mt-5 ">
+   <div class="">
+        <img class="animated zoomIn fast d-block m-auto border border-danger rounded-circle" src="jud3i.jpeg">
+    </div>
+<div class="text-center my-3">
+    <h4 class=" text-ceter animated fadeInDown fast m-auto text-muted" >   عبدالرحمن الجضعي </h4>
+    <h3 class=" text-ceter animated fadeInDown fast m-auto text-danger" > تم الاستلام   </h3>
+</div>
+
+
+   
+
+
+    <div class="d-flex my-2  p-2 bg-light">
+        <div class="col-sm-6  date-dev text-ceter">
+            <p class="mb-1" >تاريخ الاستلام</p>
+            <p class="font-weight-bold" >01/08/2019</p>
+         
+        </div>
+        <div class="col-sm-6   text-ceter">
+            <p class="mb-1">مسؤول التسليم</p>
+            <p class="font-weight-bold">محمد خالد</p>
+         
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-sm-12 text-ceter">
+            <button id="back" type="button" class="btn btn-outline-primary w-100">الرجوع</button>
+
+        </div>
+    </div>
+</div> 
+<div class="3amer d-none mt-5">
+   <div class="">
+        <img class=" animated zoomIn fast d-block m-auto border border-success rounded-circle" src="3amer.jpg">
+    </div>
+<div class="row my-3">
+    <h3 class="m-auto text-primary animated fadeInDown fast" > عامر القحطاني  </h3>
+</div>
+
+
+   
+
+
+    <!-- <div class="d-flex my-2  p-2 bg-light">
+        <div class="col-sm-6   text-ceter">
+            <p>تاريخ الاستلام</p>
+            <p>01/08/2019</p>
+         
+        </div>
+        <div class="col-sm-6 date-dev  text-ceter">
+            <p>تاريخ الاستلام</p>
+            <p>01/08/2019</p>
+         
+        </div>
+    </div> -->
+
+    <div class="row mt-4">
+        <div class="col-sm-12 text-ceter">
+            <button id="delever" type="button" class="btn btn-primary w-100">تسليم</button>
+
+        </div>
+    </div>
+</div> 
+
+<div class="maram d-none mt-5">
+   <div class="">
+        <img class=" animated zoomIn fast d-block m-auto border border-success rounded-circle" src="maram.jpg">
+    </div>
+<div class="row my-3">
+    <h3 class="m-auto text-primary animated fadeInDown fast" > مرام القرني  </h3>
+</div>
+
+
+   
+
+
+    <!-- <div class="d-flex my-2  p-2 bg-light">
+        <div class="col-sm-6   text-ceter">
+            <p>تاريخ الاستلام</p>
+            <p>01/08/2019</p>
+         
+        </div>
+        <div class="col-sm-6 date-dev  text-ceter">
+            <p>تاريخ الاستلام</p>
+            <p>01/08/2019</p>
+         
+        </div>
+    </div> -->
+
+    <div class="row mt-4">
+        <div class="col-sm-12 text-ceter">
+            <button id="delever1" type="button" class="btn btn-primary w-100">تسليم</button>
+
+        </div>
+    </div>
+</div> 
+
+
+<div class="done d-none mt-5">
+   <div class="animated zoomIn fast d-block m-auto tumb-up">
+        <!-- <img src="thumbs-up.svg"> -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#7da324" viewBox="0 0 512 512"><path d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"/></svg>
+    </div>
+<div class="row my-3">
+    <h3 class="m-auto text-primary animated fadeInDown fast" >  تم التسليم  </h3>
+</div>
+
+
+   
+
+<div class="d-flex my-2  p-2 bg-light">
+        <div class="col-sm-6  date-dev text-ceter">
+            <p class="mb-1" >تاريخ الاستلام</p>
+            <p class="font-weight-bold" >01/08/2019</p>
+         
+        </div>
+        <div class="col-sm-6   text-ceter">
+            <p class="mb-1">مسؤول التسليم</p>
+            <p class="font-weight-bold">محمد خالد</p>
+         
+        </div>
+    </div>
+
+  
+
+    <div class="row mt-4">
+            <div class="col-sm-12 text-ceter">
+                <button id="back1" type="button" class="btn btn-outline-primary w-100">الرجوع</button>
+    
+            </div>
+</div> 
+
+
+
+</div>
+
+
+<div class="table d-none mt-5">
+  
+
+
+    <h5 class="m-auto text-primary animated fadeInDown fast" >  الذين لم يستلموا حتى الآن </h5>
+    <div class="table-responsive">
+    <table class="table-hover mt-4">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">الاسم </th>
+                <th scope="col">المبنى</th>
+                <th scope="col"> المكتب</th>
+                <th scope="col">رقم الجوال</th>
+
+              </tr>
+            </thead>
+            <tbody>
+                
+              <tr>
+                <td>محمد خالد</td>
+                <td>Suhail</td>
+                <td>X5X6</td>
+                <td>0514679</td>
+               
+              </tr>
+
+              <tr>
+                <td>عامر القحطاني</td>
+                <td>Thurayya</td>
+                <td>D1K3</td>
+                <td>05678942</td>
+               
+              </tr>
+
+              <tr>
+                <td>مرام القرني </td>
+                <td>ELM5</td>
+                <td>F5H6</td>
+                <td>0514248796</td>
+               
+              </tr>
+
+            </tbody>
+          </table>
+          </div>
+
+
+   
+
+
+  
+
+    <div class="row mt-4">
+            <div class="col-sm-12 text-ceter">
+                <button id="back2" type="button" class="btn btn-outline-primary w-100">الرجوع</button>
+    
+            </div>
+</div> 
+
+
+
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
